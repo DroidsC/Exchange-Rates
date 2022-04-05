@@ -1,4 +1,4 @@
-# Cizmar Ccristian Exchange
+# Cizmar Cristian Exchange
 
 You can install the app by opening the project in Android Studio or by installing the 'app.apk'
 located in the root directory.
