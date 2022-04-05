@@ -1,0 +1,41 @@
+// Top-level build file where you can add configuration options common to all sub-projects/modules.
+buildscript {
+    ext {
+        kotlinVersion = '1.5.21'
+        ktxVersion = '1.7.0'
+        appCompatVersion = '1.4.1'
+        materialVersion = '1.4.0'
+        constraintLayoutVersion = '2.1.3'
+        navigationVersion = '2.4.0'
+        lecacySupportVersion = '1.0.0'
+        lifecycleVersion = '2.4.1'
+        retrofitVersion = '2.6.0'
+        okhttpVersion = '4.2.1'
+        daggerVersion = '2.34'
+        junitVersion = '4.13.2'
+        archCoreVersion = '2.1.0'
+        mockitoVersion = '4.0.0'
+        mockitoInlineVersion = '4.3.1'
+        powerMockVersion = '2.0.2'
+        lifecycleExtVersion = '2.2.0-alpha03'
+        rxJavaVersion = '2.2.17'
+        rxAndroidVersion = '2.1.1'
+        mpAndroidChartVersion = 'v3.1.0'
+    }
+    repositories {
+        google()
+        mavenCentral()
+        maven { url 'https://jitpack.io' }
+    }
+    dependencies {
+        classpath "com.android.tools.build:gradle:7.0.4"
+        classpath 'org.jetbrains.kotlin:kotlin-gradle-plugin:1.5.30'
+
+        // NOTE: Do not place your application dependencies here; they belong
+        // in the individual module build.gradle files
+    }
+}
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}
